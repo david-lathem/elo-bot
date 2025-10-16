@@ -1,0 +1,46 @@
+{
+  "tiers": [
+    {
+      "name": "Hall of Fame",
+      "roleId": "1426968097343934615",
+      "minElo": 999999999999999999999999999999,
+      "maxElo": 999999999999999999999999999999999999999999999999999,
+      "description": "You know who the fuck you are."
+    },
+    {
+      "name": "Tier 1 Elite",
+      "roleId": "1426968499020103740",
+      "minElo": 1000,
+      "maxElo": 99999,
+      "description": "1000+ ELO"
+    },
+    {
+      "name": "Tier 2 Insane",
+      "roleId": "1426968863282565233",
+      "minElo": 860,
+      "maxElo": 999,
+      "description": "860–999 ELO"
+    },
+    {
+      "name": "Tier 3 Cracked",
+      "roleId": "1426969055126097980",
+      "minElo": 740,
+      "maxElo": 859,
+      "description": "740–859 ELO"
+    },
+    {
+      "name": "Tier 4 Nutty",
+      "roleId": "1426969171748454440",
+      "minElo": 600,
+      "maxElo": 739,
+      "description": "600–739 ELO"
+    },
+    {
+      "name": "Tier 5",
+      "roleId": "1426969369388384376",
+      "minElo": 0,
+      "maxElo": 599,
+      "description": "Everyone starts here"
+    }
+  ]
+}
