@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const playerSchema = new mongoose.Schema({
   userId: {
@@ -9,7 +9,7 @@ const playerSchema = new mongoose.Schema({
   username: String,
   elo: {
     type: Number,
-    default: 0,
+    default: 480,
   },
   wins: {
     type: Number,
@@ -18,7 +18,7 @@ const playerSchema = new mongoose.Schema({
   losses: {
     type: Number,
     default: 0,
-  }
+  },
 });
 
-module.exports = mongoose.model('Player', playerSchema);
+module.exports = mongoose.model("Player", playerSchema);
